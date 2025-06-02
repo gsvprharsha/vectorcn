@@ -2,11 +2,12 @@
 
 ![image](https://raw.githubusercontent.com/gsvprharsha/vectorcn/refs/heads/main/misc/banner.png)
 
+<h2 align="center">
+  Minimalist marketing UI blocks for modern tech websites.<br>
+  Built with <strong>Tailwind CSS</strong>, <strong>shadcn/ui</strong>, and a love for clean code aesthetics.
+</h2>
 
-Minimalist marketing UI blocks for modern tech websites.  
-Built with **Tailwind CSS**, **shadcn/ui**, and a love for clean code aesthetics.
-
----
+VectorCN is a collection of tech-minimalist UI components and marketing blocks built with Tailwind CSS and shadcn/ui, designed for developers, designers, and startups who want clean, copy-paste-ready building blocks for modern web interfaces. It emphasizes clarity, composability, and developer-first aesthetics — combining utility-first styling with purposeful design to help you ship fast without sacrificing visual precision.
 
 ## Current Features
 
@@ -16,9 +17,6 @@ Built with **Tailwind CSS**, **shadcn/ui**, and a love for clean code aesthetics
 > [!NOTE]  
 > Designed for makers, devs, and tech teams who value clarity and utility in their design.
 
-
----
-
 ## Philosophy
 
 ### Design like a developer. Build like a designer.
@@ -27,8 +25,6 @@ Built with **Tailwind CSS**, **shadcn/ui**, and a love for clean code aesthetics
 - **Composable Sections** – Drop in and remix with ease  
 - **Copy-Paste First** – No wrappers, no bloat — just usable code  
 - **Monospace Hints + Dashed Borders** – Because style should echo structure  
-
----
 
 ## 🚀 Getting Started
 
