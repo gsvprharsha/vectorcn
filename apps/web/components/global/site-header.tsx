@@ -16,7 +16,6 @@ const SiteHeader = () => {
   const navLinks = [
     { name: "Sections", link: "/sections/hero-section" },
     { name: "Primitives", link: "/primitives" },
-    { name: "Showcase", link: "#" },
   ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -82,11 +81,14 @@ const SiteHeader = () => {
               <ThemeToggle />
 
               <Button
+                asChild
                 variant="ghost"
                 size="icon"
                 className="rounded-none border p-0 bg-background hidden sm:inline-flex cursor-pointer"
               >
-                <Github />
+                <Link href="https://github.com/gsvprharsha/vectorcn" target="_blank">
+                  <Github />
+                </Link>
               </Button>
 
               {/* Hamburger */}
@@ -151,14 +153,14 @@ const SiteHeader = () => {
                 className="flex-1 rounded-md border p-3 flex items-center justify-center"
                 asChild
               >
-                <a
+                <Link
                   href="https://github.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Github"
                 >
                   <Github />
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

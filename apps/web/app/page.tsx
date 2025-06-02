@@ -57,7 +57,7 @@ export default function Page() {
 
             <button className="flex-1 sm:flex-none min-w-0">
               <a
-                href="https://github.com/vector-cn/vectorcn"
+                href="https://github.com/gsvprharsha/vectorcn"
                 className="font-medium relative rounded-none bg-zinc-300 dark:bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80 hover:brightness-125 px-4 py-2.5 flex items-center gap-2 text-sm justify-center"
                 style={{
                   clipPath: "polygon(0% 0%, 90% 0%, 100% 20%, 100% 100%, 10% 100%, 0% 80%)",
