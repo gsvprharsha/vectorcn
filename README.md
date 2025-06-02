@@ -1,6 +1,8 @@
 # vectorcn
 
-![image](https://raw.githubusercontent.com/gsvprharsha/vectorcn/refs/heads/main/misc/banner.png)
+<a href="https://vectorcn.vercel.app" target="_blank">
+  <img src="https://raw.githubusercontent.com/gsvprharsha/vectorcn/refs/heads/main/misc/banner.png" alt="VectorCN Banner"/>
+</a>
 
 <h2 align="center">
   Minimalist marketing UI blocks for modern tech websites.<br>
