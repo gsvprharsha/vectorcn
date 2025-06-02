@@ -1,0 +1,13 @@
+{
+  "extends": "@vectorcn/typescript-config/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/ui/*": ["./src/*"]
+    },
+    "module": "es2022",
+    "moduleResolution": "bundler",
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist"]
+}

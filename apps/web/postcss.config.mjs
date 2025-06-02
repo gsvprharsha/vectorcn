@@ -1,0 +1,1 @@
+export { default } from "@vectorcn/ui/postcss.config";
