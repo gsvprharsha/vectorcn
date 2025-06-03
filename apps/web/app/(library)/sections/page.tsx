@@ -1,7 +1,8 @@
-import BlockPreview from "@/components/global/block-preview";
 import SiteFooter from "@/components/global/site-footer";
 import SiteHeader from "@/components/global/site-header";
 import { ArrowRightCircleIcon } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -41,28 +42,67 @@ export default function Page() {
               </a>
             </button>
           </div>
-
-
-          {/* Featured Blocks Section */}
-          <div className="mb-4">
-            <div className="h-4 w-full border-y border-dashed dark:bg-[repeating-linear-gradient(-45deg,var(--color-border),var(--color-border)_1px,transparent_1px,transparent_6px)] bg-[repeating-linear-gradient(-45deg,var(--color-foreground),var(--color-muted)_1px,transparent_1px,transparent_6px)]"/>
-
-            <div className="text-center my-2">
-              <span className="uppercase tracking-wider text-foreground/80 font-mono">
-                Featured Sections
-              </span>
-            </div>
-
+          
           <div className="h-4 w-full border-y border-dashed dark:bg-[repeating-linear-gradient(-45deg,var(--color-border),var(--color-border)_1px,transparent_1px,transparent_6px)] bg-[repeating-linear-gradient(-45deg,var(--color-foreground),var(--color-muted)_1px,transparent_1px,transparent_6px)]"/>
 
-          </div>
+<div className="flex flex-col lg:flex-row">
 
-          <div className="flex flex-col gap-10 mb-10">
-            <BlockPreview category="hero-section" id="one" height="700px" />
-            <BlockPreview category="hero-section" id="two" height="700px" />
-            <BlockPreview category="notification-bars" id="one" height="300px" />
-          </div>
-          
+  {/* Left Column – Hero Section */}
+  <div className="flex-1 border-r border-dashed">
+    <Link href="/sections/hero-section" className="block w-full h-full hover:brightness-150 transition-all">
+      <div className="w-full overflow-hidden shadow hover:shadow-lg transition-shadow duration-200 cursor-pointer">
+        <div className="bg-muted/20 h-60 flex items-center justify-center text-muted-foreground text-sm italic">
+          <Image 
+            src="/sections/hero-section.svg"
+            alt="Hero-Section Banner"
+            width={100}
+            height={100}
+            className="w-full h-full object-cover"
+            priority
+          />
+        </div>
+        <div className="p-4 space-y-2">
+          <h3 className="text-lg font-semibold text-foreground">Hero Section</h3>
+          <p className="text-sm text-muted-foreground">
+            Explore layout options that work across landing pages, product intros, and more.
+          </p>
+          <span className="text-sm text-primary hover:underline font-medium">
+            View Component →
+          </span>
+        </div>
+      </div>
+    </Link>
+  </div>
+
+  {/* Right Column – Notification Bars */}
+  <div className="flex-1">
+    <Link href="/sections/notification-bars" className="block w-full h-full hover:brightness-150 transition-all">
+      <div className="w-full overflow-hidden shadow hover:shadow-lg transition-shadow duration-200 cursor-pointer">
+        <div className="bg-muted/20 h-60 flex items-center justify-center text-muted-foreground text-sm italic">
+          <Image 
+            src="/sections/notification-bars.svg"
+            alt="Notification Bars Banner"
+            width={100}
+            height={100}
+            className="w-full h-full object-cover"
+            priority
+          />
+        </div>
+        <div className="p-4 space-y-2">
+          <h3 className="text-lg font-semibold text-foreground">Notification Bars</h3>
+          <p className="text-sm text-muted-foreground">
+            Ideal for alerts, promotions, or feature announcements—fully customizable.
+          </p>
+          <span className="text-sm text-primary hover:underline font-medium">
+            View Component →
+          </span>
+        </div>
+      </div>
+    </Link>
+  </div>
+
+</div>
+
           
           <SiteFooter />
 

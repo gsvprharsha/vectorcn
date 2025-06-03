@@ -14,7 +14,7 @@ const SiteHeader = () => {
   const gridColor = theme === "dark" ? "#2a2a2a" : "#d4d4d4";
 
   const navLinks = [
-    { name: "Sections", link: "/sections/hero-section" },
+    { name: "Sections", link: "/sections" },
     { name: "Primitives", link: "/primitives" },
   ];
 
