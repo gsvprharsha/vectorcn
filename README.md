@@ -11,6 +11,9 @@
 
 VectorCN is a collection of tech-minimalist UI components and marketing blocks built with Tailwind CSS and shadcn/ui, designed for developers, designers, and startups who want clean, copy-paste-ready building blocks for modern web interfaces. It emphasizes clarity, composability, and developer-first aesthetics — combining utility-first styling with purposeful design to help you ship fast without sacrificing visual precision.
 
+>[!IMPORTANT]
+>We will be shifting the project to a registry based component library very soon. Current setup is minimal and not scalable 
+
 ## Current Features
 
 - **2 Hero Sections** – Minimal, responsive hero blocks to start your page strong  
